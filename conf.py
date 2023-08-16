@@ -53,6 +53,18 @@ html_theme_options = {
   "twitter_url": "https://twitter.com/username",
   "search_bar_text": "Search this site...",
 #   "navbar_end": ["search-field.html"],
+ "icon_links": [
+        {
+            # Label for this link
+            "name": "Instagram",
+            # URL where the link will redirect
+            "url": "https://instagram.com/jad._alb/",  # required
+            # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
+            "icon": "fa-brands fa-square-instagram",
+            # The type of image to be used (see below for details)
+            "type": "fontawesome",
+        }
+   ]
 }
 
 # html_favicon = "_static/favicon.ico"

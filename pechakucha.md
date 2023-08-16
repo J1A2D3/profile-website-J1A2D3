@@ -22,3 +22,4 @@ My friend took this picture second week of TD in one of the study lounge.
 +++
 I took this picture of the open and close time for the dinning hall because I wasn't used to the times yet and I had to set up my schedule.  
 ```
+

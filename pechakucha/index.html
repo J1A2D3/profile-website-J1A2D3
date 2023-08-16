@@ -12,12 +12,12 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="pechakucha/" />
 <meta property="og:site_name" content="Jad Albatal" />
-<meta property="og:description" content="pic#2! pic#3! pic#4! pic#5! pic#6! pic#7! pic#8! pic#9! pic#10! pic#11! pic#12! pic#13! pic#14! pic#15! pic#16! pic#17! pic#18! pic#19! pic#20!" />
+<meta property="og:description" content="in study lounge My friend took this picture second week of TD in one of the study lounge. dining hall times I took this picture of the open and close time for the dinning hall because I wasn’t used..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="/_images/social_previews/summary_pechakucha_35d65e8f.png" />
-<meta property="og:image:alt" content="pic#2! pic#3! pic#4! pic#5! pic#6! pic#7! pic#8! pic#9! pic#10! pic#11! pic#12! pic#13! pic#14! pic#15! pic#16! pic#17! pic#18! pic#19! pic#20!" />
-<meta name="description" content="pic#2! pic#3! pic#4! pic#5! pic#6! pic#7! pic#8! pic#9! pic#10! pic#11! pic#12! pic#13! pic#14! pic#15! pic#16! pic#17! pic#18! pic#19! pic#20!" />
+<meta property="og:image" content="/_images/social_previews/summary_pechakucha_2d21906c.png" />
+<meta property="og:image:alt" content="in study lounge My friend took this picture second week of TD in one of the study lounge. dining hall times I took this picture of the open and close time fo..." />
+<meta name="description" content="in study lounge My friend took this picture second week of TD in one of the study lounge. dining hall times I took this picture of the open and close time for the dinning hall because I wasn’t used..." />
 <meta name="twitter:card" content="summary_large_image" />
 
     <title>TD 2023 Pictures &#8212; Jad Albatal</title>
@@ -389,25 +389,29 @@ document.write(`
                   
 <section class="tex2jax_ignore mathjax_ignore" id="td-2023-pictures">
 <h1>TD 2023 Pictures<a class="headerlink" href="#td-2023-pictures" title="Permalink to this heading">#</a></h1>
-<p><img alt="pic#2!" src="../_images/IMG-3795.JPEG" /></p>
-<p><img alt="pic#3!" src="%22pic#3%22" /><br />
-<img alt="pic#4!" src="%22pic#4%22" /><br />
-<img alt="pic#5!" src="%22pic#5%22" /><br />
-<img alt="pic#6!" src="%22pic#6%22" /></p>
-<p><img alt="pic#7!" src="%22pic#7%22" /><br />
-<img alt="pic#8!" src="%22pic#8%22" /><br />
-<img alt="pic#9!" src="%22pic#9%22" /><br />
-<img alt="pic#10!" src="%22pic#10%22" /><br />
-<img alt="pic#11!" src="%22pic#11%22" /><br />
-<img alt="pic#12!" src="%22pic#12%22" /><br />
-<img alt="pic#13!" src="%22pic#13%22" /><br />
-<img alt="pic#14!" src="%22pic#14%22" /><br />
-<img alt="pic#15!" src="%22pic#15%22" /><br />
-<img alt="pic#16!" src="%22pic#16%22" /><br />
-<img alt="pic#17!" src="%22pic#17%22" /><br />
-<img alt="pic#18!" src="%22pic#18%22" /><br />
-<img alt="pic#19!" src="%22pic#19%22" /><br />
-<img alt="pic#20!" src="%22pic#20%22" /></p>
+<!-- a container for the buttons -->
+<div class="controls">
+<!-- the btn,  btn-dark, and btn-info classes come from Bootstrap-->
+<input class='btn btn-dark' id="pause" type="button" value="Pause" onclick="pauseSlideShow()" />
+<input class='btn btn-info' id="play" type="button" value="Present" onclick="playSlideShow()" />
+<!-- the fucntions called by buttons are defined in layout.html -->
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="in study lounge" src="../_images/IMG-1635.JPG" /></p>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">My friend took this picture second week of TD in one of the study lounge.</p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm slide docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="dining hall times" src="../_images/IMG-3795.JPEG" /></p>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">I took this picture of the open and close time for the dinning hall because I wasn’t used to the times yet and I had to set up my schedule.</p>
+</div>
+</div>
 </section>
 
 <div class="section ablog__blog_comments">
@@ -470,38 +474,94 @@ document.write(`
   <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
 <script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
 
+<!--  the stuff above here makes your pages work regularly -->
+<!--  the stuff below here puts javascript on all of the pages -->
 
 <script>
+    // this section is javascript, not HTML evn though it's in the HTML file
     let slideIndex = 0;
     let slides = document.getElementsByClassName("slide");
-    if (slides.length > 0 ){
-        showSlides();
-    }
+    let slideTime = 5000;
+    // var slideInterval = setInterval(showSlides, slideTime);
+    // clearInterval(slideInterval);
+
+    // if (slides.length > 0 ){
+    //     showSlides();
+    // }
 
     function showSlides() {
         let i;
         let slides = document.getElementsByClassName("slide");
-        console.log('in')
-        console.log(slides.length)
-        console.log(slideIndex)
+        // console.log('in')
+        // console.log(slides.length)
+        // console.log(slideIndex)
 
         let dots = document.getElementsByClassName("dot");
         for (i = 0; i < slides.length; i++) {
-            console.log(i)
-            console.log('off')
+            // console.log(i)
+            // console.log('off')
             slides[i].style.display = "none";
         }
         slideIndex++;
         if (slideIndex > slides.length) { slideIndex = 1 }
         slides[slideIndex - 1].style.display = "block";
-        // for (i = 0; i < dots.length; i++) {
-        //     dots[i].className = dots[i].className.replace(" active", "");
-        // }
-        // slides[slideIndex - 1].style.display = "block";
-        // slides[slideIndex-1].setAttribute("style","display:block");
-        // dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 20000 ); // Change image every 2 seconds
     }
+
+    // show all again if not playing
+    function showAll() {
+        let i;
+        let slides = document.getElementsByClassName("slide");
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "block";
+        }
+    }
+
+//  make full screen mode
+    function openFullscreen() {
+        var elem = document.getElementById('slideshow');
+        console.log('fullscreen');
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.mozRequestFullScreen) { /* Firefox */
+                elem.mozRequestFullScreen();
+            } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { /* IE/Edge */
+                elem.msRequestFullscreen();
+            }
+        showSlides()
+        slideInterval = setInterval(showSlides, slideTime);
+    }
+
+
+    function closeFullscreen() {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.mozCancelFullScreen) { /* Firefox */
+                document.mozCancelFullScreen();
+            } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) { /* IE/Edge */
+                document.msExitFullscreen();
+            }
+
+        clearInterval(slideInterval);
+        showAll();
+        }
+
+    // play without fullscreen
+    function playSlideShow() {
+        
+            showSlides()
+            slideInterval = setInterval(showSlides, slideTime);
+        }
+
+    function pauseSlideShow() {
+        
+            clearInterval(slideInterval);
+            showAll();
+        }
 </script>
 
   </body>

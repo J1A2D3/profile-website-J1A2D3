@@ -58,7 +58,7 @@ html_theme_options = {
             # Label for this link
             "name": "Instagram",
             # URL where the link will redirect
-            "url": "https://github.com/<your-org>/<your-repo>",  # required
+            "url": "https://instagram.com/jad._alb/",  # required
             # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
             "icon": "fa-brands fa-square-instagram",
             # The type of image to be used (see below for details)

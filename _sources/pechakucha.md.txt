@@ -17,12 +17,12 @@
 
 ```{card} 
 :class-card: slide
-![  ](_static/img/IMG_1773.JPG "pic#3")
+![  ](_static/img/IMG_1773.jpg "pic#3")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](_static/img/IMG_1646.JPG "pic#4")
+![  ](_static/img/IMG_1646.jpg "pic#4")
 ```
 
 ```{card} 
@@ -32,17 +32,17 @@
 
 ```{card} 
 :class-card: slide
-![  ](_static/img/IMG_1654.JPG "pic#6")
+![  ](_static/img/IMG_1654.jpg "pic#6")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](_static/img/IMG_1896.JPG "pic#7")
+![  ](_static/img/IMG_1896.jpg "pic#7")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](_static/img/IMG_1914.JPG "pic#8")
+![  ](_static/img/IMG_1914.jpg "pic#8")
 ```
 
 ```{card} 
@@ -62,7 +62,7 @@
 
 ```{card} 
 :class-card: slide
-![  ](_static/img/IMG_1537.JPG "pic#12")
+![  ](_static/img/IMG_1537.jpg "pic#12")
 ```
 
 ```{card} 
@@ -92,7 +92,7 @@
 
 ```{card} 
 :class-card: slide
-![  ](_static/img/IMG_1243.JPG "pic#18")
+![  ](_static/img/IMG_1243.jpg "pic#18")
 ```
 
 ```{card} 
@@ -102,7 +102,7 @@
 
 ```{card} 
 :class-card: slide
-![  ](_static/img/IMG_1917.JPG "pic#20")
+![  ](_static/img/IMG_1917.jpg "pic#20")
 ```
 
 </div>

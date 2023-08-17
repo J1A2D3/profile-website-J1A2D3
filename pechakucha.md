@@ -17,12 +17,12 @@
 
 ```{card} 
 :class-card: slide
-![  ](_static/img/IMG_1243.HEIC "pic#3")
+![  ](_static/img/ "pic#3")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](static/img/IMG_1537.HEIC "pic#4")
+![  ](static/img/ "pic#4")
 ```
 
 ```{card} 
@@ -32,17 +32,17 @@
 
 ```{card} 
 :class-card: slide
-![  ](static/img/IMG_1646.HEIC "pic#6")
+![  ](static/img/ "pic#6")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](static/img/IMG_1654.HEIC "pic#7")
+![  ](static/img/ "pic#7")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](static/img/IMG_1773.HEIC "pic#8")
+![  ](static/img/ "pic#8")
 ```
 
 ```{card} 
@@ -62,7 +62,7 @@
 
 ```{card} 
 :class-card: slide
-![  ](static/img/IMG_1896.HEIC "pic#12")
+![  ](static/img/ "pic#12")
 ```
 
 ```{card} 
@@ -92,7 +92,7 @@
 
 ```{card} 
 :class-card: slide
-![  ](static/img/IMG_1914.HEIC "pic#18")
+![  ](static/img/ "pic#18")
 ```
 
 ```{card} 

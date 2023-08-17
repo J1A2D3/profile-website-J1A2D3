@@ -102,7 +102,7 @@
 
 ```{card} 
 :class-card: slide
-![  ](static/img/  "pic#20")
+![  ](static/img/ "pic#20")
 ```
 
 </div>

@@ -17,92 +17,92 @@
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#3")
+![  ](_static/img/IMG_1243.HEIC "pic#3")
 ```
 
 ```{card} 
 :class-card: slide
-![  ]( "pic#4")
+![  ](static/img/IMG_1537.HEIC "pic#4")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#5")
+![  ](static/img/IMG_1645.JPG "pic#5")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#6")
+![  ](static/img/IMG_1646.HEIC "pic#6")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#7")
+![  ](static/img/IMG_1654.HEIC "pic#7")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#8")
+![  ](static/img/IMG_1773.HEIC "pic#8")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#9")
+![  ](static/img/IMG_1796.JPG "pic#9")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#10")
+![  ](static/img/IMG_1849.JPG "pic#10")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#11")
+![  ](static/img/IMG_1892.jpg "pic#11")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#12")
+![  ](static/img/IMG_1896.HEIC "pic#12")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#13")
+![  ](static/img/IMG_1900.JPG "pic#13")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#14")
+![  ](static/img/IMG_1903.JPG "pic#14")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#15")
+![  ](static/img/IMG_1908.JPG "pic#15")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#16")
+![  ](static/img/IMG_1909.JPG "pic#16")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#17")
+![  ](static/img/IMG_1910.jpg "pic#17")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#18")
+![  ](static/img/IMG_1914.HEIC "pic#18")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#19")
+![  ](static/img/IMG_1915.JPG "pic#19")
 ```
 
 ```{card} 
 :class-card: slide
-![  ](  "pic#20")
+![  ](static/img/  "pic#20")
 ```
 
 </div>
